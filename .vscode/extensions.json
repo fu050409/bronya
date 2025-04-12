@@ -3,6 +3,6 @@
         "Vue.volar",
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "biomejs.biome",
-    ],
+        "biomejs.biome"
+    ]
 }

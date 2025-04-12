@@ -8,9 +8,11 @@
         "fastapi",
         "primeuix",
         "primevue",
+        "pycache",
         "pydantic",
         "surrealdb",
-        "unplugin"
+        "unplugin",
+        "venv"
     ],
     "ignorePaths": [
         "pnpm-lock.yaml"

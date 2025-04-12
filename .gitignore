@@ -20,3 +20,8 @@ dist-ssr
 *.suo
 *.sln
 *.sw?
+
+# Python
+.venv
+*.pyc
+__pycache__
