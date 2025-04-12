@@ -14,7 +14,5 @@
         "unplugin",
         "venv"
     ],
-    "ignorePaths": [
-        "pnpm-lock.yaml"
-    ]
+    "ignorePaths": ["pnpm-lock.yaml"]
 }

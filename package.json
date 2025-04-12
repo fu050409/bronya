@@ -27,6 +27,6 @@
         "unplugin-vue": "^6.1.0"
     },
     "lint-staged": {
-        "*.{js,ts,vue}": ["biome check --write"]
+        "*.{js,ts,vue,html,json}": ["biome check --write"]
     }
 }
