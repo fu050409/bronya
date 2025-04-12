@@ -1,0 +1,30 @@
+{
+    "name": "bronya",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "farm start",
+        "start": "farm start",
+        "build": "farm build",
+        "preview": "farm preview",
+        "clean": "farm clean",
+        "prepare": "husky"
+    },
+    "dependencies": {
+        "@primeuix/themes": "^1.0.3",
+        "primevue": "^4.3.3",
+        "vue": "^3.5.13"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^1.9.4",
+        "@farmfe/cli": "^1.0.4",
+        "@farmfe/core": "^1.7.3",
+        "core-js": "^3.41.0",
+        "husky": "^9.1.7",
+        "lint-staged": "^15.5.1",
+        "unplugin-vue": "^6.1.0"
+    },
+    "lint-staged": {
+        "*.{js,ts,vue}": ["biome check --write"]
+    }
+}
