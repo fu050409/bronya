@@ -27,6 +27,9 @@ importers:
       '@farmfe/core':
         specifier: ^1.7.3
         version: 1.7.3
+      '@farmfe/js-plugin-postcss':
+        specifier: ^1.12.0
+        version: 1.12.0(@farmfe/core@1.7.3)(postcss@8.5.3)
       core-js:
         specifier: ^3.41.0
         version: 3.41.0
@@ -383,6 +386,12 @@ packages:
   '@farmfe/core@1.7.3':
     resolution: {integrity: sha512-+WfcgEvDtPM2Vfh2tAM0qJiaecLseMOCUN/XQbiW9wPWsWP5iaBEyQsXgNkwZJLvvDBkiglOgjN0XCxh+wJW0g==}
     engines: {node: '>=16.15.1'}
+
+  '@farmfe/js-plugin-postcss@1.12.0':
+    resolution: {integrity: sha512-hDzcqVzgaK6ikR8fO+kF5nLfEC7JWQsx9QWn4P3fpAIsvEt6ouUKw9H4nzsDe+hTwQl10d1V/OPMHMQz7J/iOw==}
+    peerDependencies:
+      '@farmfe/core': ^1.7.0
+      postcss: '>=8.0.0'
 
   '@farmfe/runtime-plugin-hmr@3.5.10':
     resolution: {integrity: sha512-ZFwAGDJ1sNuwX77ADdPSO+PoMImrGl0k+nvW/TnzOy72k8JxC8OwaeOiuPgNkYxDGldp55l9mPE9NvcoxR8uzQ==}
@@ -2275,6 +2284,11 @@ snapshots:
       - bufferutil
       - supports-color
       - utf-8-validate
+
+  '@farmfe/js-plugin-postcss@1.12.0(@farmfe/core@1.7.3)(postcss@8.5.3)':
+    dependencies:
+      '@farmfe/core': 1.7.3
+      postcss: 8.5.3
 
   '@farmfe/runtime-plugin-hmr@3.5.10':
     dependencies:

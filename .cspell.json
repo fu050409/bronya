@@ -1,3 +1,18 @@
 {
-    "words": ["bronya", "farmfe", "primeuix", "primevue", "unplugin"]
+    "words": [
+        "biomejs",
+        "bronya",
+        "cffi",
+        "esbuild",
+        "farmfe",
+        "fastapi",
+        "primeuix",
+        "primevue",
+        "pydantic",
+        "surrealdb",
+        "unplugin"
+    ],
+    "ignorePaths": [
+        "pnpm-lock.yaml"
+    ]
 }
